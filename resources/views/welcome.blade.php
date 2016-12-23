@@ -20,7 +20,7 @@
     <body>
        <div class="container text-center">
            <h2>Welcome to Pagevamp</h2>
-           <p><a href="#" class="btn btn-primary"> <i class="fa fa-facebook" aria-hidden="true"></i> Login with Facebook</a></p>
+           <p><a href="{{$login_url}}" class="btn btn-primary"> <i class="fa fa-facebook" aria-hidden="true"></i> Login with Facebook</a></p>
 
        </div>
     </body>
