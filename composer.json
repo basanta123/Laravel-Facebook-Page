@@ -6,12 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "sammyk/laravel-facebook-sdk": "^3.0",
 
         "laravel/framework": "5.3.*"
-    },
-    "require": {
-        "sammyk/laravel-facebook-sdk": "^3.0"
-    },
+    }
+    
+        
+    
 
      
     "require-dev": {
