@@ -11,6 +11,6 @@ class ExampleTest extends TestCase
     public function testBasicExample()
     {
         $this->visit('/')
-             ->see('Laravel');
+             ->see('Welcome to Pagevamp')->see('Login with Facebook');
     }
 }
