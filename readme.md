@@ -2,9 +2,8 @@
 
 [![Build Status](https://travis-ci.org/basanta123/Laravel-Facebook-Page.svg?branch=master)](https://travis-ci.org/basanta123/Laravel-Facebook-Page)
 [![Code Style](https://styleci.io/repos/77210590/shield?branch=master)](https://styleci.io/repos/77210590)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/basanta123/Laravel-Facebook-Page/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/basanta123/Laravel-Facebook-Page/?branch=master)
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
