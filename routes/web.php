@@ -38,6 +38,8 @@ Route::get('pagevamp', function() {
 $info = Session::get('fb_user_access_token');
 if($info){
 	echo 'Yes';
+}else{
+	redirect('/');
 }
 });  
 
