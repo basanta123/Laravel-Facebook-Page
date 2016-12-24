@@ -22,11 +22,9 @@ Route::get('/page', function (SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) 
     try {
         $token = $fb->getAccessTokenFromRedirect();
         if ($token) {
-        	
-          $response = $fb->get('/me?fields=id,name,email', $token);
-          $userNode = $response->getGraphUser();
-        
-   
+            $response = $fb->get('/me?fields=id,name,email', $token);
+            $userNode = $response->getGraphUser();
+
             Session::put('fb_user_access_token', [$userNode->getName(), (string) $token]);
 
             return redirect('pagevamp');
@@ -34,22 +32,19 @@ Route::get('/page', function (SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb) 
     } catch (Facebook\Exceptions\FacebookSDKException $e) {
         dd($e->getMessage());
     }
-
 });
-
 
 Route::get('pagevamp', function () {
     $info = Session::get('fb_user_access_token');
     if (!$info) {
-       return redirect ('/');
+        return redirect('/');
     }
 
     return view('dashboard')->with('info', $info);
 });
 
 Route::get('logout', function () {
+    Session::remove('fb_user_access_token');
 
-	Session::remove('fb_user_access_token');
-	return redirect('/');
-
+    return redirect('/');
 });
