@@ -16,24 +16,12 @@ class ApiTest extends TestCase
     {
        
         $response = $this->call('GET', '/api/v1/page');
-        
-        $this->assertEquals(200, $response->status());
+
+        $this->assertTrue($response->isOk());
 
     }
 
-     /**
-     * testing the posts made by page
-     *
-     * @return void
-     */
-    public function testPosts()
-    {
-       
-        $response = $this->call('GET', '/api/v1/posts');
-        
-        $this->assertEquals(200, $response->status());
-       
-    }
+     
 
 
 }
