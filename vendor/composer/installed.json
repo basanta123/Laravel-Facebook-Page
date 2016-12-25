@@ -3679,5 +3679,59 @@
             "test double",
             "testing"
         ]
+    },
+    {
+        "name": "logentries/logentries-monolog-handler",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/logentries/logentries-monolog-handler.git",
+            "reference": "ddcbda0350b8108f2fbd8dc59bba6c28513ee423"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/logentries/logentries-monolog-handler/zipball/ddcbda0350b8108f2fbd8dc59bba6c28513ee423",
+            "reference": "ddcbda0350b8108f2fbd8dc59bba6c28513ee423",
+            "shasum": ""
+        },
+        "require": {
+            "monolog/monolog": ">=1.4"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master"
+        },
+        "time": "2016-07-28 17:32:47",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Logentries": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Johannes Schickling",
+                "email": "schickling.j@gmail.com"
+            },
+            {
+                "name": "Mark Lacomber",
+                "email": "marklacomber@gmail.com"
+            }
+        ],
+        "description": "A handler for Monolog that sends messages to Logentries.com.",
+        "homepage": "https://github.com/logentries/logentries-monolog-handler",
+        "keywords": [
+            "laravel",
+            "log",
+            "logentries",
+            "logging",
+            "monolog",
+            "symfony"
+        ]
     }
 ]
