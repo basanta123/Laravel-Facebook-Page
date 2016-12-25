@@ -19,7 +19,8 @@ Monolog library inbuilt with laravel,Log entries.com for the entry of logs into 
 
 ## Used package
 
-sammyk/laravel-facebook-sdk for connecting our application with facebook api
+sammyk/laravel-facebook-sdk for connecting our application with facebook api.
+
 logentries/logentries-monolog-handler for handling application logs in clouds
 
 ## Unit test
