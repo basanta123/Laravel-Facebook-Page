@@ -48,3 +48,7 @@ Route::get('logout', function () {
 
     return redirect('/');
 });
+
+Route::get('api/v1/page', 'ApiController@index');
+Route::get('api/v1/posts', 'ApiController@posts');
+Route::get('api/v1/post/{id}', 'ApiController@show');

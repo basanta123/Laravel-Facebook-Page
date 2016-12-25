@@ -63,7 +63,9 @@
        
        <!-- page main section -->
        <div class="container text-center">
+       <div class="row">
           <div ui-view></div>
+        </div>
         
        </div>
 
