@@ -61,6 +61,5 @@ class ApiController extends Controller
         $monolog->addInfo('Post with id '.$id.'  pulled successfully in our application');
 
         return $content->getGraphNode();
-
     }
 }
