@@ -62,6 +62,5 @@ class ApiController extends Controller
 
         return $content->getGraphNode();
 
-           // return $content->getGraphEdge();
     }
 }
