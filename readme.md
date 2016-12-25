@@ -9,18 +9,19 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+## Framework
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Laravel,Angular Js and  Bootstrap
 
-## Contributing
+## Application Logs
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Monolog library inbuilt with laravel,Log entries.com for the entry of logs into the cloud
 
-## Security Vulnerabilities
+## Used package
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+sammyk/laravel-facebook-sdk for connecting our application with facebook api
+logentries/logentries-monolog-handler for handling application logs in clouds
 
-## License
+## Unit test
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+PHPUNIT
