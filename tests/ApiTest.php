@@ -15,10 +15,7 @@ class ApiTest extends TestCase
     public function testPage()
     {
        
-        $response = $this->call('GET', '/api/v1/page');
-
-        $this->assertTrue($response->isOk());
-
+        
     }
 
      
