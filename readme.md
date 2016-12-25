@@ -5,9 +5,11 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/basanta123/Laravel-Facebook-Page/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/basanta123/Laravel-Facebook-Page/?branch=master)
 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+In this application users can login with facebook .After successfull login they will  be redirected to a page where they 
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+can see the content of a faceboook page. In another page they will see the posts made by a page 
+
+and they can view the individual post as well.
 
 ## Framework
 
@@ -21,7 +23,7 @@ Monolog library inbuilt with laravel,Log entries.com for the entry of logs into 
 
 sammyk/laravel-facebook-sdk for connecting our application with facebook api.
 
-logentries/logentries-monolog-handler for handling application logs in clouds
+logentries/logentries-monolog-handler for handling application logs in cloud
 
 ## Unit test
 
